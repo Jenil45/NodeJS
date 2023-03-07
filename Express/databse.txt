@@ -1,0 +1,6 @@
+The name of your client is Rohit Sharma |
+ The age of client is 34 |
+ The description of him He is World class Batsman who hitted 3 double centuries in ODIs. | 
+The name of your client is Jenil Thakor |
+ The age of client is 19 |
+ The description of him I am CE 3rd year student. | 
