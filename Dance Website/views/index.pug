@@ -1,0 +1,98 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style 
+        include ../bootstrap-5.2.1-dist/css/bootstrap.css
+    
+    style 
+        include ../static/style.css
+
+    //- style 
+    //-     include https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css
+
+    script 
+        include ../JS/jquery.js
+
+    script 
+        include ../static/index.js
+    script
+        include ../bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js
+    
+    script( src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js")
+
+        
+
+    //- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    //- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    body
+
+        nav#navbar.navbar.navbar-expand-lg.navbar-light.bg-primary 
+            div.container-fluid
+                a.navbar-brand.text-white(href="/home") Navbar
+                //- button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+                //- span.navbar-toggler-icon
+                //- div.collapse.navbar-collapse#navbarNav
+                ul.navbar-nav 
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/home") Home
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/home") About
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/Contact") Contact
+
+
+
+        section#homePage 
+            h1 Welcome to My Dance Academy 
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat sint voluptates aliquam nihil culpa, velit illum?
+        
+        section#cardbox.w-75.bg-light.m-auto.border.border-2.mt-2
+            <center> 
+            h1.mt-4  Go Through Our Courses 
+            </center>
+            div#cardOutlet
+                <center> 
+                div.card(style="width: 18rem;")
+                    img.card-img-top(src="../static/c1.jpg" alt="...")
+                    div.card-body
+                        h5.card-titleCard title
+                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content
+                        a.btn.btn-primary( href="#") Go somewhere
+                div.card( style="width: 18rem;")
+                    img.card-img-top(src="../static/c2.jpg", alt="...")
+                    div.card-body
+                        h5.card-title Card title
+                        p.card-text Some quick example text to build on the card title and make up the bulk of the card's content
+                        a.btn.btn-primary(href="#") Go somewhere
+                div.card(style="width: 18rem;")
+                    <img src="../static/c3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        h5.card-title Card title
+                        p.card-textSome quick example text to build on the card title and make up the bulk of the card's content
+                        a.btn.btn-primary(href="#") Go somewhere
+
+                </center>
+        
+        section#sponserLayout.w-75.m-auto.bg-light.border.border-2.mt-4
+            <center>
+                h1.mt-4 Our Sponsers
+                div#sponserBox.w-100.m-auto.patiya.carousel
+                    div#sponser
+                        div#image
+                            <img src="../static/logos/l1.jpg" class="imgCard" alt="...">
+                        h4 Dance Academy 1
+                    div#sponser
+                        div#image
+                            <img src="../static/logos/l2.png" class="imgCard" alt="...">
+                        h4 Dance Academy 2
+                        h5 This
+                        
+                    div#sponser
+                        div#image
+                            <img src="../static/logos/l3.png" class="imgCard" alt="...">
+                        h4 Dance Academy 3
+                        h5 This is Jenil nfbvbf fjbvjv nbvjfbv
+
+            </center>

@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#homePage
+{
+    height: 500px;
+    background: url(../static/danceBg.jpg) no-repeat center center / cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card
+{
+    display: inline-block;
+    margin: 30px 30px;
+}
+
+/* .imgCard
+{
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+} */
+
+#sponserLayout
+{
+    overflow: hidden;
+}
+
+#sponserBox
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+    padding: 20px;
+    margin-top: 20px;
+    height: 350px;
+    /* box-sizing: border-box; */
+    /* overflow: scroll; */
+}
+
+#sponser
+{
+    width: 300px;
+    /* background-color: red; */
+    display: inline-block;
+    min-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    border: 2px solid black;
+    margin: 0px 30px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+#sponser #image
+{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#sponser #image img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+#sponser h4
+{
+    margin-top: 12px;
+}
+
+.patiya
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.imgCard
+{
+    /* border: 2px solid black; */
+    border-radius: 55%;
+    width: 33%;
+    display: inline-block;
+}

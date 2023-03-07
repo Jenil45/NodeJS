@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../JS/jquery.js
+
+    script 
+        include ../static/index.js
+    script
+        include ../bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js
+    
+    script( src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js")
+
+block style
+    style 
+        include ../bootstrap-5.2.1-dist/css/bootstrap.css
+    
+    //- style 
+    //-     include ../static/contactStyle.css
+
+block content 
+    .container 
+        h1.text-center Contact Us 
+        form(action="/contact"  method="post")
+            div.mb-3.w-25.m-auto
+                label.form-label(for="exampleInputEmail1") Name
+                input#exsxsxx.form-control(type="text" aria-describedby="emailHelp" name="name")
+            div.mb-3.w-25.m-auto
+                label.form-label(for="exampleInputEmail1") Phone No.
+                input#fdff.form-control(type="number" aria-describedby="emailHelp" name="phone")
+            div.mb-3.w-25.m-auto
+                label.form-label(for="exampleInputEmail1") Email address
+                input#sdd.form-control(type="email" aria-describedby="emailHelp" name="email")
+            div.mb-3.w-25.m-auto
+                label.form-label(for="exampleInputEmail1") Address
+                input#sdsdwd.form-control(type="text" aria-describedby="emailHelp" name="address")
+            div.mb-3.w-25.m-auto
+                label.form-label(for="exampleFormControlTextarea1") Description
+                textarea.form-control#exampleFormControlTextarea1(rows="3" name="desc")
+            div.mb-3.w-25.m-auto
+                button.btn.btn-primary(type="submit") Submit
