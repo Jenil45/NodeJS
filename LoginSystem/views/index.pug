@@ -1,0 +1,37 @@
+extends base.pug
+
+block content 
+    //- h1.text-center Registration Form 
+    br
+    .container.w-75.h-75.mt-4.mb-2.bg-success.p-4.d-flex.align-items-center 
+            
+        div.screen.p-4.w-25.h-75.text-white.text-center.d-flex.align-items-center.flex-column
+            <ion-icon name="planet-outline" size="large"></ion-icon>
+            br
+            h3.mt-2 Welcome
+            p Login for an activity. 
+            p Registration for new activity  
+            a(href="/login") 
+                button.btn.bg-white.text-black.mt-auto.mb-4 LogIn
+
+        div.conatiner.bg-white.w-75.h-75.login.border.p-4.registration
+            h2.titleLog.text-center Employee Registration Form 
+            br
+            .form 
+                form(action="/contact" method="post" class="row p-2") 
+                    div.mb-3.w-50.mr-2
+                        input.form-control(type="text" aria-describedby="emailHelp" name="fname" placeholder="First Name *")
+                    div.mb-3.w-50.mr-2
+                        input.form-control(type="text" aria-describedby="emailHelp" name="lname" placeholder="Last Name *")
+                    div.mb-3.w-50.mr-2
+                        input.form-control(type="email" aria-describedby="emailHelp" name="email" placeholder="Email *")
+                    div.mb-3.w-50.mr-2
+                        input.form-control(type="phone" aria-describedby="emailHelp" name="phoneno" placeholder="Phone No *")
+                    div.mb-3.w-50.ml-2
+                        input.form-control(type="number" aria-describedby="emailHelp" name="age" placeholder="Age *")
+                    div.mb-3.w-50.ml-2
+                        input.form-control(type="password" aria-describedby="emailHelp" name="password" placeholder="Password *")
+                    div.mb-3.w-50.ml-2
+                        input.form-control(type="password" aria-describedby="emailHelp" name="cpassword" placeholder="Confirm Password *")
+                    div.mb-3.w-50.ml-2
+                        button.btn.btn-outline-success(type='submit') Register

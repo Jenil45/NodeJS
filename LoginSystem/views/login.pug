@@ -1,0 +1,30 @@
+extends base.pug
+
+block content 
+    //- h1.text-center Registration Form 
+    br
+    .container.w-75.h-75.mt-4.mb-2.bg-success.p-4.d-flex.align-items-center 
+            
+        div.screen.p-4.w-25.h-75.text-white.text-center.d-flex.align-items-center.flex-column
+            <ion-icon name="planet-outline" size="large"></ion-icon>
+            br
+            h3.mt-2 Welcome
+            p Login for an activity. 
+            p Registration for new activity  
+            a(href="/") 
+                button.btn.bg-white.text-black.mt-auto.mb-4 SignUp
+
+        div.conatiner.bg-white.w-75.h-75.login.border.p-4.loginPage
+            h2.titleLog.text-center Employee Login Form 
+            br
+            .form 
+                form(action="/login" method="post" class="p-2 ") 
+                    center 
+                        div.mb-3.w-50.mr-2
+                            input.form-control(type="email" aria-describedby="emailHelp" name="email" placeholder="Email *")
+                        div.mb-3.w-50.mr-2
+                            input.form-control(type="password" aria-describedby="emailHelp" name="password" placeholder="Password *")
+                        
+                        div.mb-3.w-50.ml-2
+                            button.btn.btn-outline-success(type='submit') Login
+

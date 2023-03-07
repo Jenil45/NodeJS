@@ -1,0 +1,47 @@
+//- layout.pug
+html
+  head
+    title LogIn
+    block scripts
+        script 
+            include ../JS/jquery.js
+
+        script
+            include ../bootstrap-5.2.1-dist/js/bootstrap.bundle.min.js
+
+
+
+        script( src = "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js")
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    block css 
+        style 
+            include ../bootstrap-5.2.1-dist/css/bootstrap.css
+        style 
+            include ../public/style.css
+
+  body
+    block navbar 
+        nav#navbar.navbar.navbar-expand-lg.navbar-light.bg-success 
+            div.container-fluid
+                a.navbar-brand.text-white(href="/") Navbar
+                //- button.navbar-toggler(type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+                //- span.navbar-toggler-icon
+                //- div.collapse.navbar-collapse#navbarNav
+                ul.navbar-nav 
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/") Home
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/login") Login
+                    li.nav-item 
+                        a.nav-link.active.text-white(href="/") Registration
+
+    block content
+    //- block foot
+    //-   #footer
+    //-     .bg-black.w-100.text-white.p-2 This is footer 
+
+    block newScript 
+        script
+            include ../public/index.js

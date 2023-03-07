@@ -1,0 +1,21 @@
+.login
+{
+    border-left: 2em;
+}
+
+.titleLog
+{
+    color: rgb(101, 99, 94);
+}
+
+.registration
+{
+    /* display: none;  */
+}
+
+.loginSwitch
+{
+    position: absolute;
+    right: 240px;
+    top: 130px;
+}
