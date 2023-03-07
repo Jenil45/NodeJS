@@ -1,0 +1,80 @@
+[
+    {
+        "id" : 1,
+        "name" : "Jenil",
+        "age" : 19,
+        "address" : {
+            "street" : "Eru",
+            "City" : "Navsari",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 2,
+        "name" : "Aniket",
+        "age" : 20,
+        "address" : {
+            "street" : "Jalalpore",
+            "City" : "Navsari",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 3,
+        "name" : "Raghav",
+        "age" : 19,
+        "address" : {
+            "street" : "Bhuj",
+            "City" : "Kutch",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 4,
+        "name" : "Gunjan",
+        "age" : 19,
+        "address" : {
+            "street" : "Vijalpore",
+            "City" : "Navsari",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 5,
+        "name" : "Meet",
+        "age" : 19,
+        "address" : {
+            "street" : "Eru",
+            "City" : "Navsari",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 6,
+        "name" : "Rohit",
+        "age" : 34,
+        "address" : {
+            "street" : "StreetLIght",
+            "City" : "Nagpur",
+            "State" : "Maharshtra",
+            "Country" : "India"
+        }
+    },
+    {
+        "id" : 7,
+        "name" : "Riya",
+        "age" : 15,
+        "address" : {
+            "street" : "Eru",
+            "City" : "Navsari",
+            "State" : "Gujarat",
+            "Country" : "India"
+        }
+    }
+
+]
