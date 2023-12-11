@@ -1,0 +1,53 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+}
+
+.logo
+{
+    font-size: 26px;
+}
+
+.list
+{
+    display: flex;
+    gap: 25px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex: initial;
+}
+
+.list li
+{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 6px 1px;
+    transition: all 500ms ease-in-out;
+}
+
+.list li:hover
+{
+    border-bottom: 2px solid white;
+}
+
+.btn
+{
+    background-color: #2952e3;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: none;
+    color: white;
+}
+
+.btn:hover
+{
+    background-color: #2546bd;
+}

@@ -1,0 +1,47 @@
+.roomlist
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.roomMember
+{
+    display: flex;
+    background-color: #1d1d1d;
+    padding: 22px;
+    border-radius: 12px;
+    width: 400px;
+    height: 350px;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn
+{
+    width: 10rem;
+    padding: 0.3rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+
+.btn:hover
+{
+    background-color: #0077ff;
+    color: white;
+}
+
+.videoContainer
+{
+    width: 550px;
+}

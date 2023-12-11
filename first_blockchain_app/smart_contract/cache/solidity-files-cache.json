@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Jenil Thakor\\OneDrive\\Desktop\\Summer Internship\\first_blockchain_app\\smart_contract\\contracts\\Transaction.sol": {
+      "lastModificationDate": 1693302484479,
+      "contentHash": "f211a76f07037efddea3914b4e3110c8",
+      "sourceName": "contracts/Transaction.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "Transaction"
+      ]
+    }
+  }
+}
