@@ -1,0 +1,13 @@
+:root
+{
+  --maincolor : #081730;
+  --maincolor2 : #020917;
+  --borderColor : #232A4E;
+  --smallText : #525D6E;
+  --cardbg : #081730;
+  --cardtxt : #707070;
+  --cardbtn : #E600FF;
+  --gradient1 : #F3071D;
+  --gradient2 : #E600FF;
+  color: transparent
+}
