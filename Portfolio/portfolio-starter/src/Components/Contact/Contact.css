@@ -1,0 +1,89 @@
+.contact
+{
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+
+.c-left
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    /* justify-content: center; */
+}
+
+.c-left>:nth-child(1)
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.c-left>:nth-child(2)
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.c-right
+{
+    flex: 1;
+}
+
+.c-right>form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.c-right>form>input
+{
+    padding: 0.4rem;
+    border-radius: 8px;
+    width: 20rem;
+    border: 3px solid var(--orangeCard);
+}
+.c-right>form>textarea
+{
+    padding: 0.4rem;
+    width: 20rem;
+    border-radius: 8px;
+    border: 3px solid var(--orangeCard);
+}
+
+.c-right>form .button
+{
+    width: 6rem;
+}
+
+.c-blur1
+{
+    background: var(--purple);
+    top: 4rem;
+    left: 42rem;
+}
+.c-blur2
+{
+    background: skyblue;
+    top: 12rem;
+    left: -12rem;
+
+}
+
+@media screen and (max-width : 480px) {
+    .contact
+    {
+        flex-direction: column;
+        height: 30rem;
+        gap: 0rem;
+    }   
+
+    .c-right
+    {
+        margin-top: -14rem;
+    }
+}

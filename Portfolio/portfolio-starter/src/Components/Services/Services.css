@@ -1,0 +1,117 @@
+.services
+{
+    height: 90vh;
+    display: flex;
+    padding: 0 3rem;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    position: relative;
+    /* background-color: green; */
+}
+
+.s-left
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.s-left>:nth-child(1)
+{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.s-left>:nth-child(2)
+{
+    font-size: 2.4rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+
+.s-left>:nth-child(3)
+{
+    font-size: 18px;
+    color: var(--gray);
+    margin-top: 1rem;
+}
+
+.s-button
+{
+    width: 7.5rem;
+    margin-top: 2rem;
+}
+.s-right
+{
+    flex: 1;
+    position: relative;
+}
+
+.s-right>*
+{
+    position: absolute;
+}
+
+.s-right>:nth-child(1)
+{
+    left: 14rem;
+}
+
+.s-right>:nth-child(2)
+{
+    top: 10rem;
+    left: -2rem;
+}
+
+.s-right>:nth-child(3)
+{
+    top: 18rem;
+    left: 12rem;
+}
+
+.s-blur
+{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    filter: blur(75px);
+    z-index: -9;
+    /* left: 56%; */
+    /* top: -18%; */
+}
+
+.blue-blur
+{
+    background: #c1f5ff;
+    top: 25%;
+    left: -10%;
+}
+
+.pink-blur
+{
+    background: #edd0ff;
+    top: 20%;
+    left: 45rem;
+}
+
+@media screen and (max-width : 480px) {
+    .services
+    {
+        margin-top: -2rem;
+        flex-direction: column;
+        gap: 5rem;
+        height: 60rem;
+    }
+
+    .s-right
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .s-right>*
+    {
+        position: static;
+    }
+}

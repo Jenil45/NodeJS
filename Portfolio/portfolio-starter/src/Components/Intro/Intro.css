@@ -1,0 +1,148 @@
+.intro
+{
+    display: flex;
+    height: 70vh;
+    margin-top: 6rem;
+}
+
+.i-left
+{
+    flex: 1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.i-content
+{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.i-content>:nth-child(1)
+{
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.i-content>:nth-child(2)
+{
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: var(--orange);
+}
+
+.i-content>:nth-child(3)
+{
+    font-weight: 100;
+    color: var(--gray);
+    font-size: 18px;
+}
+
+.i-button
+{
+    width: 6rem;
+    height: 2rem;
+}
+
+.i-icons
+{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.i-icons>a:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.i-icons>a>img
+{
+    width: 2rem;
+
+}
+
+.i-right
+{
+    flex: 1;
+    position: relative;
+}
+
+.i-right>*
+{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1)
+{
+    transform: scale(0.69);
+    top: -9%;
+    left: -10%;
+}
+
+.i-right>:nth-child(2)
+{
+    transform: scale(0.67);
+    left: -3rem;
+    top: -4.6rem;
+}
+
+.i-right>:nth-child(3)
+{
+    transform: scale(1.4);
+    left: 28%;
+}
+
+.i-right>:nth-child(4)
+{
+    transform: scale(0.7);
+    top: -15%;
+    left: -18%;
+}
+
+.blur
+{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(75px);
+    z-index: -9;
+    left: 56%;
+    top: -18%;
+}
+
+@media screen and (max-width : 480px) {
+       .intro
+       {
+            flex-direction: column;
+            gap: 0rem;
+            height: 56rem;
+       }
+
+       .i-right
+       {
+            margin-top:-2rem;
+            transform: scale(0.8);
+            left: -3rem;
+       }
+
+       .i-right .blur
+       {
+        display: none;
+       }
+
+       .floationgdiv:nth-of-type(1)
+       {
+        position: absolute;
+        top: -27rem;
+        left: 20rem;
+       }
+}

@@ -1,0 +1,46 @@
+.card
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 13rem;
+    width: 10rem;
+    gap: 0.4rem;
+    border: 7px solid var(--orangeCard);
+    padding: 12px;
+    border-radius: 16px;
+    box-shadow: var(--boxShadow);
+}
+
+.card>img
+{
+    transform: scale(0.6);
+}
+
+.c-title
+{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.c-detail
+{
+    font-size: 0.7rem;
+    font-weight: 100;
+    color: var(--gray);
+    text-align: center;
+}
+
+.c-button
+{
+    background-color: white;
+    /* border: 1px solid var(--gray); */
+    padding: 6px;
+    font-size: 0.7rem;
+    color: blue;
+    border-radius: 8px;
+    /* box-shadow: var(--smboxShadow); */
+    
+}
