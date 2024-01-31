@@ -1,0 +1,12 @@
+.inputBox
+{
+    background: #323232;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    outline: none;
+}

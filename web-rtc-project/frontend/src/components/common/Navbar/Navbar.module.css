@@ -1,0 +1,54 @@
+.navbar
+{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn
+{
+    background: orange;
+    padding: 5px 10px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    color: black;
+    cursor: pointer;
+    width: 80px;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid orange;
+}
+
+.navRight
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.navRight>*
+{
+    text-decoration: none;
+}
+
+.profile
+{
+    /* width: 300px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: white;
+}
+
+.profile img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid orange;
+}

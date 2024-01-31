@@ -1,0 +1,68 @@
+.card
+{
+    background-color: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.speakers
+{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.speakers img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #0077ff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.singlespeaker img
+{
+    position: initial;
+}
+
+.speakers img:last-child
+{
+    top: 20px;
+    left: 20px;
+}
+
+.speakerName
+{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.singlespeaker .speakerName
+{
+    margin-left: 20px;
+}
+
+.speakerName span
+{
+    font-weight: 800;
+
+}
+
+.audience
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+.audience img
+{
+    margin-left: 10px;
+}
+
