@@ -1,0 +1,16 @@
+POST http://localhost:5500/api/sendOtp HTTP/1.1
+Content-Type: application/json
+
+{
+    "phone" : "+918200548645"
+}
+
+### 
+POST http://localhost:5500/api/verifyOtp HTTP/1.1a
+Content-Type: application/json
+
+{
+    "phone" : "+918200548645",
+    "otp" : 9784,
+    "hash" : "68e0fbf4df1f767e224f1b751cc11ebadc6e6ff713324c90ed1d1360e154e1d4.1691315453894"
+}
